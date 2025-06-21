@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//snippets[@id='snippet_groups']" position="inside">
+            <t snippet-group="payra" t-snippet="website.s_snippet_group" string="payra"
+               t-thumbnail="/website/static/src/img/snippets_thumbs/s_cover.svg"/>
+        </xpath>
+
+        <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+            <t t-snippet="theme_tutorial.property_agents" string="Property Agents" group="payra">
+                <keywords>hero, jumbotron, headline, header, branding, intro, home, showcase, spotlight, lead,
+                    welcome, announcement, splash, top, main
+                </keywords>
+            </t>
+        </xpath>
+    </template>
+</odoo>

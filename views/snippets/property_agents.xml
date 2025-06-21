@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="property_agents" name="Property Agents">
+        <section class="property-agents">
+            <div>property-agents</div>
+            <img class="img img-fluid mx-auto rounded" src="/theme_tutorial/static/src/img/colmi.png" alt=""/>
+        </section>
+    </template>
+</odoo>
