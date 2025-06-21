@@ -12,6 +12,9 @@
                     welcome, announcement, splash, top, main
                 </keywords>
             </t>
+            <t t-snippet="theme_tutorial.dynamic_products" string="dynamic_products" group="payra">
+                <keywords>products</keywords>
+            </t>
         </xpath>
     </template>
 </odoo>

@@ -9,11 +9,13 @@
         'views/header.xml',
         'views/footer.xml',
         'views/snippets/property_agents.xml',
+        'views/snippets/dynamic_products.xml',
         'views/snippets/snippets.xml',
     ],
     'assets': {
         'web.assets_frontend': [
-            'theme_tutorial/static/src/css/styles.css'
+            'theme_tutorial/static/src/css/styles.css',
+            'theme_tutorial/static/src/js/dynamic_snippets.js',
         ]
     },
     'license': 'LGPL-3',
