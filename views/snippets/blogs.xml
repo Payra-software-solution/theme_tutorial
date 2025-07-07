@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="blogs" name="Blogs">
+        <section class="Blogs">
+            <div>Blogs</div>
+            <div class="my-grid-3 my-p-5 my-border my-gap-2">
+                <div class="blog my-border my-p-3 my-radius-sm">
+                    <p>Blog Name</p>
+                </div>
+                <div class="blog  my-border my-p-3 my-radius-sm">
+                    <p class='my-bg-primary my-text-white'>Blog Name</p>
+                </div>
+                <div class="blog my-border my-p-3 my-radius-sm">
+                    <p class='my-bg-red'>Blog Name</p>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

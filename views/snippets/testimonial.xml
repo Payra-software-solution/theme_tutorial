@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="testimonial_snippet" name="Testimonial">
+        <section class="testimonial_snippet">
+            <div class=" my-text-center">
+                <h3>Testimonial Section</h3>
+                <p>sub title</p>
+            </div>
+
+            <div class="my-grid-3 container my-gap-3 my-mt-5">
+
+               <!-- single testimonial item -->
+                <div class="my-p-2 my-shadow-1 my-flex-center my-gap-2 my-border my-radius-sm">
+                    <div>
+                        <img class="w-15 my-radius-round my-p-1 my-border" src=''/>
+                    </div>
+                    <div class="testimonial-item-right">
+                        <h5>MD Hasal Ali</h5>
+                        <p>Manager (<i class="fa-solid fa-star-half-stroke"></i>)</p>
+                    </div>
+                </div>
+
+               <!-- single testimonial item -->
+                <div class="my-p-2 my-shadow-1 my-border   my-flex-center my-gap-2 my-radius-sm">
+                    <div>
+                        <img class="w-15 my-radius-round my-p-1 my-border" src=''/>
+                    </div>
+                    <div class="testimonial-item-right">
+                        <h5>MD Hasal Ali</h5>
+                        <p>Manager (<i class="fa-solid fa-star-half-stroke"></i>)</p>
+                    </div>
+                </div>
+
+                <!-- single testimonial item -->
+                <div class="my-p-2 my-shadow-1 my-border   my-flex-center my-gap-2 my-radius-sm">
+                    <div>
+                        <img class="w-15 my-radius-round my-p-1 my-border" src=''/>
+                    </div>
+                    <div class="testimonial-item-right">
+                        <h5>MD Hasal Ali</h5>
+                        <p>Manager (<i class="fa-solid fa-star-half-stroke"></i>)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -2,18 +2,27 @@
 <odoo>
     <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
         <xpath expr="//snippets[@id='snippet_groups']" position="inside">
-            <t snippet-group="payra" t-snippet="website.s_snippet_group" string="payra"
-               t-thumbnail="/website/static/src/img/snippets_thumbs/s_cover.svg"/>
+            <t snippet-group="Test" t-snippet="website.s_snippet_group" string="Test"
+               t-thumbnail="/theme_tutorial/static/description/theme_screenshot.jpg"/>
         </xpath>
 
         <xpath expr="//snippets[@id='snippet_structure']" position="inside">
-            <t t-snippet="theme_tutorial.property_agents" string="Property Agents" group="payra">
+            <t t-snippet="theme_tutorial.property_agents" string="Property Agents" group="Test">
                 <keywords>hero, jumbotron, headline, header, branding, intro, home, showcase, spotlight, lead,
                     welcome, announcement, splash, top, main
                 </keywords>
             </t>
-            <t t-snippet="theme_tutorial.dynamic_products" string="dynamic_products" group="payra">
+            <t t-snippet="theme_tutorial.dynamic_products" string="dynamic_products" group="Test">
                 <keywords>products</keywords>
+            </t>
+
+            <!-- =========  Blog  ========== -->
+            <t t-snippet="theme_tutorial.blogs" string="blogs" group="Test">
+                <keywords>blogs</keywords>
+            </t>
+
+            <!-- =========  Testimonial  ========== -->
+            <t t-snippet="theme_tutorial.testimonial_snippet"  string="Testimonial " group="Test">
             </t>
         </xpath>
     </template>

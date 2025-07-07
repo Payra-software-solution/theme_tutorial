@@ -1,0 +1,10 @@
+
+.testimonial_snippet{
+    padding:16px;
+}
+.testimonial-item-right {
+    padding: 4px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(168, 162, 162);
+    border-bottom: 2px solid rgb(168, 162, 162);
+}
